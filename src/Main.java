@@ -10,7 +10,12 @@ public class Main {
 
 
         // User 2 fer la resta dels elements de subArray
+        int r = subArray[0];
+        for (int i = 1; i < subArray.length; i++) {
+            r -= subArray[i];
+        }
 
+        System.out.println(r);
 
 
         // User 3 fer la multiplicació dels elements de prodArray
